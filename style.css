@@ -422,5 +422,21 @@ ul a{
     .logo2{
     height: 4.10dvh;
     width: 8dvw;
+    display: grid;
+    grid-template-columns: auto;
+    }
+    .foot-panel2{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media (min-width: 1440px){
+    .text{
+        margin-right: 20px;
+       padding-top: 12px;
+    }
+    .logo2{
+        width: 14dvh;
     }
 }
